@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Login from "./components/login/login.component";
 import SignUp from "./components/signUp/signup.component";
+import ForgotPassword from './components/forgotPassword/forgotpassword.component';
+import ResetPassword from './components/resetPassword/resetpassword.component'
 
 function App() {
   return (<Router>
@@ -31,6 +33,8 @@ function App() {
             <Route exact path='/' component={Login} />
             <Route path="/login" component={Login} />
             <Route path="/register" component={SignUp} />
+            <Route path="/forgotpassword" component={ForgotPassword} />
+            <Route path="/resetpassword" component={ResetPassword} />
           </Switch>
         </div>
       </div>

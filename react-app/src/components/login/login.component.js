@@ -24,8 +24,9 @@ export default class Login extends Component {
         </div>
 
         <button type="submit" className="btn btn-dark btn-lg btn-block">Login</button>
-        <p className="forgot-password text-right">
-           <a href="#"> forgot password?</a>
+        <p className="forgot-password d-flex justify-content-around">
+          <a href="/register" className="lg"> signup</a>
+          <a href="/forgotPassword"> forgot password</a>
         </p>
       </form>
     );
