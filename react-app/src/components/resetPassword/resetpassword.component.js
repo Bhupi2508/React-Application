@@ -8,12 +8,12 @@ export default class ResetPassword extends Component {
 
                 <div className="form-group">
                     <label>Password</label>
-                    <input type="email" className="form-control" placeholder="Enter password" />
+                    <input type="email" className="form-control" placeholder="Enter password" required />
                 </div>
 
                 <div className="form-group">
                     <label>Confirm Password</label>
-                    <input type="password" className="form-control" placeholder="Enter confirm password" />
+                    <input type="password" className="form-control" placeholder="Enter confirm password" required />
                 </div>
 
                 <button type="submit" className="btn btn-dark btn-lg btn-block">Reset Password</button>

@@ -8,7 +8,7 @@ export default class ForgotPassword extends Component {
 
                 <div className="form-group">
                     <label>Email</label>
-                    <input type="email" className="form-control" placeholder="Enter email" />
+                    <input type="email" className="form-control" placeholder="Enter email" required />
                 </div>
 
                 <button type="submit" className="btn btn-dark btn-lg btn-block">Forgot Password</button>
